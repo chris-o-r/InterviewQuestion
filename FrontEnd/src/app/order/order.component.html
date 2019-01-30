@@ -1,0 +1,18 @@
+<table>
+  <th>Order Date</th>
+  <th>Order ID</th>
+  <th>Item Name</th>
+  <th>Rep Name</th>
+  <th>Number Items</th>
+  <th>Total Price</th>
+  
+
+  <tr *ngFor="let order of orders">
+    <td>{{order.order_date}}</td>
+    <td>{{order.order_id}}</td>
+    <td>{{order.item_name}}</td>
+    <td>{{order.rep_name}}</td>
+    <td>{{order.num_items}}</td>
+    <td>{{order.total_price}}</td>
+  </tr>
+</table>
